@@ -1,0 +1,6 @@
+alert ("programa para calcular salario:")
+var hora_trab = Number(prompt("Digite o horario trabalhado"))
+var valor_trab = Number(prompt("Digite o valor da hora trabalhada"))
+var hora_extra = Number(prompt("Digite o horario extra trabalhado    "))
+var salario = (hora_trab*valor_trab)+(hora_extra*(hora_trab+(valor_trab*0.5)))
+alert("Seu salário é de :R$"+salario)
